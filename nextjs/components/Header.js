@@ -32,6 +32,7 @@ export default function Header() {
                 <ConnectButton moralisAuth={false} />
             </div>
             <div className="ml-auto py-2 px-4">
+                <p>zzz</p>
                 <button onClick={login}>Login with Unstoppable</button>
                 <button onClick={logout}>Logout Unstoppable</button>
             </div>
