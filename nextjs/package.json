@@ -17,10 +17,15 @@
     "web3uikit": "^0.1.159"
   },
   "devDependencies": {
+    "@uauth/js": "^2.3.0",
+    "@uauth/web3modal": "^2.2.0",
+    "@walletconnect/web3-provider": "^1.8.0",
     "autoprefixer": "^10.4.4",
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.5",
+    "parcel": "^2.7.0",
     "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.0.24",
+    "web3modal": "^1.9.8"
   }
 }
