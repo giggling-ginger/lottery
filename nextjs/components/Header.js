@@ -5,7 +5,7 @@ import UAuth from "@uauth/js"
 
 const uauth = new UAuth({
     clientID: "fd8290ec-5042-4ced-8bf5-baf16ee3e95b",
-    redirectUri: "https://lottery-giggling-ginger.vercel.app/callback",
+    redirectUri: "https://lottery-giggling-ginger.vercel.app",
 })
 
 const login = async () => {
