@@ -6,6 +6,7 @@ import UAuth from "@uauth/js"
 const uauth = new UAuth({
     clientID: "fd8290ec-5042-4ced-8bf5-baf16ee3e95b",
     redirectUri: "https://lottery-giggling-ginger.vercel.app",
+    scope: "openid wallet",
 })
 
 const login = async () => {
