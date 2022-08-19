@@ -5,7 +5,7 @@ import UAuth from "@uauth/js"
 
 const uauth = new UAuth({
     clientID: "fd8290ec-5042-4ced-8bf5-baf16ee3e95b",
-    redirectUri: "https://lottery-giggling-ginger.vercel.app/",
+    redirectUri: "https://lottery-giggling-ginger.vercel.app/callback",
 })
 
 const login = async () => {
@@ -32,7 +32,6 @@ export default function Header() {
                 <ConnectButton moralisAuth={false} />
             </div>
             <div className="ml-auto py-2 px-4">
-                <p>zzz</p>
                 <button onClick={login}>Login with Unstoppable</button>
                 <button onClick={logout}>Logout Unstoppable</button>
             </div>
